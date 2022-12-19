@@ -1,7 +1,8 @@
 # Belly Button Biodiversity - Challenge 14
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/112281976/208505439-23ce723d-2cc5-4fa7-8052-afd785000b26.png)
-
+/p>
 
 # Assignment Overview
 
