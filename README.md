@@ -1,7 +1,7 @@
 # Belly Button Biodiversity - Challenge 14
 
+![image](https://user-images.githubusercontent.com/112281976/208505439-23ce723d-2cc5-4fa7-8052-afd785000b26.png)
 
-![image](https://user-images.githubusercontent.com/112281976/208249573-05f5c443-e80c-4bb7-a1a0-cb1e6c593f45.png)
 
 # Assignment Overview
 
@@ -9,60 +9,37 @@ In this assignment, you will build an interactive dashboard to explore the Belly
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ### Step 1: Plotly ###
-   Use the D3 library to read in samples.json.
+   
+   1. Use the D3 library to read in samples.json.
 
-   Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+   2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
-   Use sample_values as the values for the bar chart.
+   3. Use sample_values as the values for the bar chart.
 
-   Use otu_ids as the labels for the bar chart.
+   4. Use otu_ids as the labels for the bar chart.
 
-Use otu_labels as the hovertext for the chart.
+   5. Use otu_labels as the hovertext for the chart.
 
-bar Chart
+### Charts Created ###
 
-Create a bubble chart that displays each sample.
-Use otu_ids for the x values.
+    1. bar Chart
+    2. Buble Chart
 
-Use sample_values for the y values.
+# Bar chart
 
-Use sample_values for the marker size.
+    1. Use otu_ids for the x values.
 
-Use otu_ids for the marker colors.
+    2. Use sample_values for the y values.
 
-Use otu_labels for the text values.
+    3. Use sample_values for the marker size.
 
-Bubble Chart
+    4. Use otu_ids for the marker colors.
 
-Display the sample metadata, i.e., an individual's demographic information.
+    5. Use otu_labels for the text values.
 
-Display each key-value pair from the metadata JSON object somewhere on the page.
+# Bubble Chart
 
-hw
+    1. Display the sample metadata, i.e., an individual's demographic information.
 
-Update all of the plots any time that a new sample is selected.
-Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
+    2. Display each key-value pair from the metadata JSON object somewhere on the page.
 
-hw
-
-Advanced Challenge Assignment (Optional)
-The following task is advanced and therefore optional.
-
-Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/ to plot the weekly washing frequency of the individual.
-
-You will need to modify the example gauge code to account for values ranging from 0 through 9.
-
-Update the chart whenever a new sample is selected.
-
-Weekly Washing Frequency Gauge
-
-Deployment
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
-
-Hints
-Use console.log inside of your JavaScript code to see what your data looks like at each step.
-
-Refer to the Plotly.js documentation when building the plots.
-
-About the Data
-Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
