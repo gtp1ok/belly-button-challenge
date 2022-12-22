@@ -14,13 +14,13 @@ function buildMetaData(sample) {
   // clears existing data
   panel.html("");
 
-  
+  // iterate over the key/value pairs in an object
   Object.entries(result).forEach(([key, value]) => {
     panel.append("h6").text(`${key.toUpperCase()}: ${value}`);
   });
 });
 }
-
+// Create an array
 function buildCharts(sample) {
   d3.json("samples.json").then((data) => {
     var sampleData = data.samples;
